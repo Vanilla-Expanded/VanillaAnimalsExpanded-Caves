@@ -315,8 +315,7 @@
     <Compile Include="Damage\DamageWorker_TwoArmSlam.cs" />
     <Compile Include="Defs\VAEQuestMapSpawnsDef.cs" />
     <Compile Include="HarmonyPatches\BiomeDef_CommonalityOfAnimal_Patch.cs" />
-    <Compile Include="HarmonyPatches\Patch_WildAnimalSpawner.cs" />
-    <Compile Include="HarmonyPatches\HarmonyPatches.cs" />
+    <Compile Include="HarmonyPatches\MapTemperature_SeasonAcceptableFor_Patch.cs" />
     <Compile Include="HarmonyPatches\TrainableUtility_TamenessCanDecay.cs" />
     <Compile Include="Hediffs\HediffComp_ViciousAttack.cs" />
     <Compile Include="Hediffs\Hediff_BleedingWound.cs" />
