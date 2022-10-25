@@ -19,6 +19,7 @@
 				<severityPerDamageDealt>0.005</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
@@ -36,6 +37,7 @@
 				<hediff>VEF_ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.03</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
@@ -55,6 +57,8 @@
 			<li>
 				<hediff>VAE_BleedingWound</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 
 			</li>
 		</additionalHediffs>
