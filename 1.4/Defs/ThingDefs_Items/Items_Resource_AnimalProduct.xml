@@ -10,7 +10,12 @@
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
-
+		<ingestible>
+		  <babiesCanIngest>false</babiesCanIngest>
+		  <preferability>NeverForNutrition</preferability>
+		  <foodType>VegetableOrFruit</foodType>
+		 
+		</ingestible>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
 			<Mass>0.15</Mass>
@@ -42,7 +47,7 @@
   <ThingDef ParentName="VAECaves_EggFertBaseNonResistant">
     <defName>VAECaves_EggSalamanderFertilized</defName>
     <label>blind salamander egg (fert.)</label>
-    <description>A fertilized blind salamander egg. If all goes well, it should hatch into a blind salamander. It can be eaten raw, but it's much better cooked.\n\nSpecial mechanics: blind salamander eggs are very fragile, and will be ruined if kept outside a narrow temperature range (5 to 25 ºC).</description>
+    <description>A fertilized blind salamander egg. If all goes well, it should hatch into a blind salamander.\n\nSpecial mechanics: blind salamander eggs are very fragile, and will be ruined if kept outside a narrow temperature range (5 to 25 ºC).</description>
     <graphicData>
       <color>(211,237,209)</color>
     </graphicData>
